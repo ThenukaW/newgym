@@ -629,6 +629,86 @@ body {
   font-weight: 600;
 }
 
+/* Tablet */
+@media (max-width: 1100px) {
+  .plans-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featured {
+    transform: scale(1);
+  }
+}
+
+/* Mobile swipe layout */
+@media (max-width: 768px) {
+  .plans-grid {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .plans-grid::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .plans-grid::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+  }
+
+  .plans-grid::-webkit-scrollbar-thumb {
+    background: rgba(255, 77, 77, 0.6);
+    border-radius: 20px;
+  }
+
+  .plan-card {
+    min-width: 85%;
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+    padding: 30px 22px;
+  }
+
+  .plan-card:hover {
+    transform: none;
+  }
+
+  .plan-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .price {
+    font-size: 2.3rem;
+  }
+
+  .featured {
+    transform: scale(1);
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .plan-card {
+    min-width: 92%;
+    flex: 0 0 92%;
+    border-radius: 20px;
+    padding: 28px 20px;
+  }
+
+  .price {
+    font-size: 2rem;
+  }
+
+  .plan-card ul li {
+    font-size: 0.95rem;
+  }
+}
+
 /* Trainers */
 .trainers-grid {
   display: grid;
