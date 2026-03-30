@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerFit Gym</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Mobile Menu Toggle -->
+  <input type="checkbox" id="menu-toggle">
+
+  <!-- Sidebar Overlay -->
+  <label for="menu-toggle" class="overlay"></label>
+
+  <!-- Sidebar Menu -->
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <h2>PowerFit</h2>
+      <label for="menu-toggle" class="close-btn">&times;</label>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#plans">Plans</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="sidebar-btn">Join Today</a>
+    </nav>
+  </aside>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">PowerFit</div>
+
+    <nav class="desktop-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#plans">Plans</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#contact" class="btn desktop-btn">Join Now</a>
+      <label for="menu-toggle" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-text fade-up">
+        <p class="mini-title">ELITE FITNESS CLUB</p>
+        <h1>Train Hard.<br>Look Strong.<br>Feel Unstoppable.</h1>
+        <p class="hero-subtext">
+          Join a premium fitness experience with world-class equipment,
+          expert trainers, body transformation programs, and a motivating gym atmosphere.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#plans" class="btn">Get Membership</a>
+          <a href="#services" class="btn btn-outline">Explore Services</a>
+        </div>
+
+        <div class="hero-numbers">
+          <div class="number-card">
+            <h3>500+</h3>
+            <p>Active Members</p>
+          </div>
+          <div class="number-card">
+            <h3>18+</h3>
+            <p>Expert Trainers</p>
+          </div>
+          <div class="number-card">
+            <h3>24/7</h3>
+            <p>Open Access</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-panel fade-right">
+        <div class="glass-card">
+          <span class="card-badge">Premium Fitness</span>
+          <h3>Start Your Transformation Today</h3>
+          <p>
+            Personalized workouts, nutrition support, modern equipment, and intense group training sessions.
+          </p>
+
+          <ul>
+            <li>Strength Training Zone</li>
+            <li>Cardio & Fat Burn Programs</li>
+            <li>Personal Coaching</li>
+            <li>Body Assessment Tracking</li>
+          </ul>
+
+          <a href="#contact" class="btn">Book Free Trial</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="section-heading fade-up">
+      <p class="section-tag">ABOUT US</p>
+      <h2>Premium Gym Experience Built For Results</h2>
+      <p class="section-subtext">
+        We help members build strength, confidence, and discipline through expert guidance and a motivating environment.
+      </p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card fade-up">
+        <h3>Modern Equipment</h3>
+        <p>
+          Train with top-quality machines, free weights, functional equipment, and recovery tools.
+        </p>
+      </div>
+      <div class="about-card fade-up delay-1">
+        <h3>Professional Trainers</h3>
+        <p>
+          Get support from experienced coaches for weight loss, bodybuilding, endurance, and lifestyle transformation.
+        </p>
+      </div>
+      <div class="about-card fade-up delay-2">
+        <h3>Results Focused</h3>
+        <p>
+          Every workout, nutrition plan, and training session is designed to push you towards real progress.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section dark-section" id="services">
+    <div class="section-heading fade-up">
+      <p class="section-tag">OUR SERVICES</p>
+      <h2>Everything You Need To Level Up</h2>
+      <p class="section-subtext">
+        From muscle building to cardio conditioning, we provide all-in-one training support.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card fade-up">
+        <div class="service-icon">🏋️</div>
+        <h3>Weight Training</h3>
+        <p>Build strength and lean muscle with advanced gym equipment and expert support.</p>
+      </div>
+
+      <div class="service-card fade-up delay-1">
+        <div class="service-icon">🔥</div>
+        <h3>Fat Loss Programs</h3>
+        <p>Structured workout and cardio plans to help you reduce body fat effectively.</p>
+      </div>
+
+      <div class="service-card fade-up delay-2">
+        <div class="service-icon">💪</div>
+        <h3>Personal Training</h3>
+        <p>One-on-one sessions designed around your goals, body type, and progress level.</p>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-icon">🏃</div>
+        <h3>Cardio Zone</h3>
+        <p>Treadmills, cycles, rowers, and high-performance cardio systems for endurance.</p>
+      </div>
+
+      <div class="service-card fade-up delay-1">
+        <div class="service-icon">🧘</div>
+        <h3>Mobility & Recovery</h3>
+        <p>Stretching, mobility work, and recovery sessions to improve flexibility and reduce injury.</p>
+      </div>
+
+      <div class="service-card fade-up delay-2">
+        <div class="service-icon">🥗</div>
+        <h3>Nutrition Guidance</h3>
+        <p>Simple diet support and fitness meal advice to match your training goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership -->
+  <section class="section" id="plans">
+    <div class="section-heading fade-up">
+      <p class="section-tag">MEMBERSHIP PLANS</p>
+      <h2>Choose Your Fitness Journey</h2>
+      <p class="section-subtext">
+        Flexible plans for beginners, regular members, and high-performance athletes.
+      </p>
+    </div>
+
+    <div class="plans-grid">
+      <div class="plan-card fade-up">
+        <h3>Basic</h3>
+        <div class="price">$19<span>/month</span></div>
+        <ul>
+          <li>Gym Floor Access</li>
+          <li>Locker Facility</li>
+          <li>Basic Assessment</li>
+          <li>2 Free Classes</li>
+        </ul>
+        <a href="#contact" class="btn plan-btn">Choose Plan</a>
+      </div>
+
+      <div class="plan-card featured fade-up delay-1">
+        <span class="popular-tag">Most Popular</span>
+        <h3>Standard</h3>
+        <div class="price">$39<span>/month</span></div>
+        <ul>
+          <li>Unlimited Gym Access</li>
+          <li>Group Classes</li>
+          <li>Nutrition Guidance</li>
+          <li>Trainer Support</li>
+        </ul>
+        <a href="#contact" class="btn plan-btn">Choose Plan</a>
+      </div>
+
+      <div class="plan-card fade-up delay-2">
+        <h3>Premium</h3>
+        <div class="price">$59<span>/month</span></div>
+        <ul>
+          <li>All Standard Features</li>
+          <li>Personal Coach</li>
+          <li>Advanced Tracking</li>
+          <li>Priority Support</li>
+        </ul>
+        <a href="#contact" class="btn plan-btn">Choose Plan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trainers -->
+  <section class="section dark-section" id="trainers">
+    <div class="section-heading fade-up">
+      <p class="section-tag">EXPERT TRAINERS</p>
+      <h2>Meet Our Fitness Coaches</h2>
+      <p class="section-subtext">
+        Experienced professionals committed to helping you reach your best shape.
+      </p>
+    </div>
+
+    <div class="trainers-grid">
+      <div class="trainer-card fade-up">
+        <div class="trainer-image trainer-1"></div>
+        <div class="trainer-info">
+          <h3>Alex Morgan</h3>
+          <p>Strength Coach</p>
+        </div>
+      </div>
+
+      <div class="trainer-card fade-up delay-1">
+        <div class="trainer-image trainer-2"></div>
+        <div class="trainer-info">
+          <h3>Sophia Reed</h3>
+          <p>Fitness Specialist</p>
+        </div>
+      </div>
+
+      <div class="trainer-card fade-up delay-2">
+        <div class="trainer-image trainer-3"></div>
+        <div class="trainer-info">
+          <h3>Daniel Cruz</h3>
+          <p>Body Transformation Coach</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-box fade-up">
+      <h2>Push Beyond Your Limits</h2>
+      <p>
+        Transform your lifestyle with expert training, smart workouts, and a powerful gym community.
+      </p>
+      <a href="#contact" class="btn">Start Today</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="section-heading fade-up">
+      <p class="section-tag">CONTACT US</p>
+      <h2>Book Your Free Trial Session</h2>
+      <p class="section-subtext">
+        Ready to begin? Contact us today and take the first step toward your new body.
+      </p>
+    </div>
+
+    <div class="contact-wrapper">
+      <div class="contact-info fade-up">
+        <h3>PowerFit Gym</h3>
+        <p><strong>Email:</strong> info@powerfit.com</p>
+        <p><strong>Phone:</strong> +94 77 123 4567</p>
+        <p><strong>Location:</strong> Colombo, Sri Lanka</p>
+        <p><strong>Hours:</strong> Open 24/7</p>
+      </div>
+
+      <form class="contact-form fade-up delay-1">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Your Phone">
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-logo">PowerFit</div>
+    <p>© 2026 PowerFit Gym. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
